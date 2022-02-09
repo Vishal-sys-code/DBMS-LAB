@@ -189,4 +189,3 @@ viewing the table[after inserting one value]:
 ## Assignments
 - Given in the classroom.
 - Write the every query to the A4 sheet paper and give the screenshots printed attached to it till 14 February 2022.
-- 
