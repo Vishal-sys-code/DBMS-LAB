@@ -1,0 +1,34 @@
+select * from product_master;
+select * from sales_order;
+
+-- LABORATORY ASSIGNMENT 2
+
+-- Question 1
+select * from client_master where name like '_a%';
+
+-- Question 2
+select * from client_master where city like '_a%';
+
+-- Question 3
+select * from client_master where city = 'Mumbai' OR city = 'Bangalore';
+
+-- Question 4
+select * from client_master where balancedue>10000;
+
+-- Question 5
+select * from sales_order where to_char(orderdate,'Month') = 'JAN';
+
+-- Question 6
+select * from client_master where clientno = 'C00001' and clientno = 'C00002';
+
+-- Question 7
+select * from product_master where sellprice > 2000 and sellprice <= 5000;
+
+-- Question 8
+select * from product_master where sellprice > 2000 and sellprice <= 5000;
+
+-- Question 9
+select name,city,state from client_master where state not in ('Maharashtra');
+
+-- Question 10
+select * from product_master where Qtyohhand < ReorderLvl;

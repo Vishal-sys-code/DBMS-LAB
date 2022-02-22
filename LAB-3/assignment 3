@@ -1,0 +1,35 @@
+-- Laboratory 3
+
+select * from emp;
+select * from client_master;
+select * from product_master;
+select * from sales_order;
+select * from salesman_master;
+select * from sales_order_details;
+
+--Question 1
+update product_master SET reorderlvl=80 where description1 = 'Shirts';
+
+-- Question 2
+update product_master set sellprice = sellprice + 0.10;
+
+-- Question 3
+update salesman_master SET YTDSALES=35 where SALESMANNO = 'S00002';
+
+--Question 5
+update client_master SET PINCODE=400001 where CITY = 'Mumbai';
+
+-- Question 6 
+update product_master SET reorderlvl = reorderlvl*2;
+
+-- Question 7
+delete from sales_order where ORDERSTATUS = 'Cancelled';
+
+-- Question 8
+delete from salesman_master; 
+-- [POPULATING THE SALESMAN_MASTER]
+
+-- Question 9
+SELECT * FROM PRODUCT_MASTER WHERE QTYOHHAND < REORDERLVL;
+
+-- Question 10
