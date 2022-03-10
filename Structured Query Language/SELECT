@@ -1,0 +1,23 @@
+The SELECT statement is used to select data from a database.
+
+The data returned is stored in a result table, called the result-set.
+
+Syntax:-
+
+select * from table_name;
+select column1,column2,..... from table_name;
+
+--------------------------------------------------------------------------------------------------
+
+distinct: clear, discrete [English meanings]
+
+Select distinct :- It used to return only distinct values i.e. different values.
+
+Syntax:-
+
+SELECT DISTINCT from table_name;
+
+SELECT DISTINCT column1, column2, ...
+FROM table_name;
+
+--------------------------------------------------------------------------------------------------

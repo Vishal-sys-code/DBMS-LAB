@@ -1,0 +1,26 @@
+WHERE clause is used to filter records. It is also used to update and delete.
+
+Syntax:
+
+Select column1, column2,..... FROM table_name WHERE condition
+
+examples: 
+
+SELECT * FROM customers WHERE country='INDIA';
+SELECT * FROM customers where cusID = 3;
+
+--------------------------------------------------------------------------------------------------
+
+OPERATORS IN WHERE
+
+=       :  equal
+>       :  greater than 
+<       :  less than 
+>=      :  greater than equal to
+<=      :  less than equal to 
+<>      :  not equal to
+BETWEEN : between a certain range 
+LIKE    : search for patterns
+IN      : to specify multiple possible values for a column 
+
+--------------------------------------------------------------------------------------------------
