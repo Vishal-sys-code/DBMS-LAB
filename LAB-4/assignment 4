@@ -1,0 +1,133 @@
+-- LABORATORY 4
+
+desc dual;
+select * from dual;
+
+-- QUESTION 1
+    SELECT  TO_CHAR(SYSDATE, 'MM-DD-YYYY HH24:MI:SS') FROM dual;
+    select systimestamp from dual;
+
+-- QUESTION 2
+select 2*2 from dual;
+
+-- QUESTION 3
+select abs(-15) from dual;
+
+-- QUESTION 4
+select sqrt(5) from dual;
+
+-- QUESTION 5
+select round(15.19) from dual;
+
+-- QUESTION 6
+select upper('IVAN BAYROSS') from dual;
+
+-- QUESTION 7
+select lower('IVAN BAYROSS') from dual;
+
+-- QUESTION 8
+select DATEADD(day,5,'2022/03/08'); -- wrong
+
+-- QUESTION 9
+SELECT MONTHS_BETWEEN 
+   (TO_DATE('02-07-2001','MM-DD-YYYY'),
+    TO_DATE('02-01-2001','MM-DD-YYYY') ) "Months"
+    FROM DUAL;
+
+-- QUESTION 10
+select sysdate from dual;
+
+-- -------------------------------------------------------------------------------
+
+/* 
+EMP TABLE IS CREATED
+EMP(EMPNO, ENAME, JOB, MGR, HIREDATE, SAL, COMM, DEPT_NAME)
+*/
+
+select * from emp;
+select * from dept;
+
+alter table emp add Dept_name varchar2(255);
+
+update emp
+set dept_name = 'Research'
+where deptno = 20;
+
+update emp
+set dept_name = 'Accounting'
+where deptno = 10;
+
+update emp
+set dept_name = 'Sales'
+where deptno = 30;
+
+update emp
+set dept_name = 'Operations'
+where deptno = 40;
+
+-- 14
+select ENAME from EMP where Job1 <> 'Manager';
+
+
+-- 15
+select ENAME from EMP where ENAME Like '_i%';
+
+-- 16
+select count(*) from emp  where JOB1 = 'Manager';
+
+-- 17
+select max(sal) as "Maximum" from emp;
+select min(sal) as "Minimum" from emp;
+select sum(sal) as "Total" from emp;
+select avg(sal) as "Average" from emp;
+
+select max(sal) as "Maximum", min(sal) as "Minimum", sum(sal) as "Total", avg(sal) as "Average" from emp;
+
+-- 18
+select max(sal) as "Maximum", min(sal) as "Minimum", sum(sal) as "Total", avg(sal) as "Average" from emp where job1 = 'Manager' ;
+select max(sal) as "Maximum", min(sal) as "Minimum", sum(sal) as "Total", avg(sal) as "Average" from emp where job1 = 'Salesman' ;
+select max(sal) as "Maximum", min(sal) as "Minimum", sum(sal) as "Total", avg(sal) as "Average" from emp where job1 = 'Clerk' ;
+select max(sal) as "Maximum", min(sal) as "Minimum", sum(sal) as "Total", avg(sal) as "Average" from emp where job1 = 'President' ;
+
+--19 
+select count(distinct mgr) "Number of Managers" from emp;
+
+-- 20
+select * from emp where hiredate < '01/01/1981'
+
+-- 21
+select max(sal) as "Highest Salary" from emp where job1 = 'Salesman';
+
+-- 22
+select min(sal) as "Lowest Salary" from emp where job1 = 'Clerk';
+
+-- 23
+select ename from emp where sal > (select sal from emp where ename = 'Turner');
+
+-- 24
+select deptno from emp where ename = 'Ford';
+
+-- 25
+select deptno, max(sal) as "overall highest salary" from emp group by deptno; --edit
+
+
+/*
+Question 1: 
+an aggregate function is a function where the values of multiple rows are grouped together as input on certain criteria to form a single value of more significant meaning.
+GROUP BY Statement in SQL is used to arrange identical data into groups with the help of some functions. i.e if a particular column has same values in different rows then it will arrange these rows in a group.
+
+Important Points:
+
+GROUP BY clause is used with the SELECT statement.
+In the query, GROUP BY clause is placed after the WHERE clause.
+In the query, GROUP BY clause is placed before ORDER BY clause if used any.
+
+-------------------------------------------------------------------------------------------
+Question 2: 
+It is a table that is automatically created by Oracle Database along with the data dictionary. DUAL is in the schema of the user SYS but is accessible by the name DUAL to all users. It has one column, DUMMY, defined to be VARCHAR2(1), and contains one row with a value X.
+
+DUAL is in the schema of the user SYS but is accessible by the name DUAL to all users. It has one column, DUMMY , defined to be VARCHAR2(1) , and contains one row with a value X . Selecting from the DUAL table is useful for computing a constant expression with the SELECT statement.
+*/
+
+-- Display the name of emp who have 3rd highest sal in the emp
+select * from emp;
