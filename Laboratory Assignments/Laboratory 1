@@ -69,3 +69,11 @@ insert into emp values(7934,'Miller','Clerk',7782,'01/23/1982',1300,NULL,10);
 -- Question 7
 select * from dept;
 select * from emp;
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+-- Question 8
+CREATE TABLE SALESPEOPLE(
+    snum number(10) constraints PK_SNUM primary key,
+    sname varchar2(20),
+    city varchar2(20),
+    comm number(5)
+);
