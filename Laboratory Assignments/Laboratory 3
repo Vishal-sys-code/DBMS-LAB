@@ -26,3 +26,7 @@ UPDATE SALESMAN_MASTER SET YtdSales = 35 WHERE SalesmanNo = 'S00003';
 -- Question 5
 UPDATE SALESMAN_MASTER SET Pincode = 400001 WHERE CITY = 'Mumbai';
 
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+-- Question 6
+UPDATE PRODUCT_MASTER SET ReorderLvl = ReorderLvl * 2;
