@@ -23,3 +23,8 @@ CREATE TABLE EMP(
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 -- Question 2
 ALTER TABLE EMP ADD Phone number(10);
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+--Question 3
+ALTER TABLE EMP MODIFY JOB char(20); /*Adding the new attribute Phone to EMP*/
+desc EMP;
+ALTER TABLE EMP MODIFY JOB varchar2(20); /*Changing attribute of JOB from Char->Varchar2 && Varchar2->Char*/
