@@ -162,3 +162,4 @@ insert into PRODUCT_MASTER values('P08865','Skirts',5,'Piece',75,30,450,300);
 
 
 insert into SALESMAN_MASTER values('S00001','Aman','A/14','Jadavpur','Kolkata', 700032,'West Bengal', 3000,100,50, 'Good');
+insert into SALESMAN_MASTER values('S00002','Omkar','65','Chandni','Delhi',110006,'Delhi',3000,200,100,'Good');
