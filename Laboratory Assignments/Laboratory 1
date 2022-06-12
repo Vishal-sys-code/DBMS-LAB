@@ -148,3 +148,15 @@ insert into CLIENT_MASTER values('C00003','Chhaya Bankar','Mumbai',400057,'Mahar
 insert into CLIENT_MASTER values('C00004','Ashwini Joshi','Bangalore',560001,'Karnataka',0);
 insert into CLIENT_MASTER values('C00005','Hansel Colaco','Mumbai',400060,'Maharashtra',2000);
 insert into CLIENT_MASTER values('C00006','Deepak Sharma','Mangalore',560050,'Karnataka',0);
+
+/* INSERTING THE VALUES INTO THE PRODUCT MASTER */
+insert into PRODUCT_MASTER values('P00001','T-Shirts',5,'Piece',200,50,350,250);
+insert into PRODUCT_MASTER values('P0345','Shirts',6,'Piece',150,50,500,350);
+insert into PRODUCT_MASTER values('P06734','Cotton Jeans',5,'Piece',100,20,600,450);
+insert into PRODUCT_MASTER values('P07865','Jeans',5,'Piece',100,20,750,500);
+insert into PRODUCT_MASTER values('P07868','Trousers',2,'Piece',150,50,850,550);
+insert into PRODUCT_MASTER values('P07885','PullOver',2.5,'Piece',80,30,700,450);
+insert into PRODUCT_MASTER values('P07965','Denim Shirts',4,'Piece',100,40,350,250);
+insert into PRODUCT_MASTER values('P07975','Lyers Tops',5,'Piece',70,30,300,175);
+insert into PRODUCT_MASTER values('P08865','Skirts',5,'Piece',75,30,450,300);
+
