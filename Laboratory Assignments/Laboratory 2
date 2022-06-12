@@ -32,3 +32,6 @@ SELECT * FROM PRODUCT_MASTER WHERE SellPrice > 2000 OR SellPrice <= 5000;
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 -- Question 9
 SELECT NAME,CITY,STATE FROM CLIENT_MASTER WHERE CITY NOT IN 'Maharashtra';
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+-- Question 10
+SELECT * FROM PRODUCT_MASTER WHERE QtyInHand > ReorderLvl;
