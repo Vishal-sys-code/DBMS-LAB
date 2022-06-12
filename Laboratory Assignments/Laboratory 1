@@ -28,3 +28,12 @@ ALTER TABLE EMP ADD Phone number(10);
 ALTER TABLE EMP MODIFY JOB char(20); /*Adding the new attribute Phone to EMP*/
 desc EMP;
 ALTER TABLE EMP MODIFY JOB varchar2(20); /*Changing attribute of JOB from Char->Varchar2 && Varchar2->Char*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+-- Question 4
+ALTER TABLE EMP DROP Column Phone; /*Deleting the attribute Phone from EMP table*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+-- Question 5 [Describing the Tables]
+desc DEPT;
+desc EMP;
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+--Question 6
