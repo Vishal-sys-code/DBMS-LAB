@@ -58,3 +58,18 @@ SELECT TO_DATE(SYSDATE, 'DD/MM/YYYY') FROM DUAL;
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
+/*
+Create the following table and insert 10 rows in the table
+EMP(EMPNO, ENAME, JOB, MGR, HIREDATE, SAL, COMM, DEPT_NAME)
+
+QUESTION 11 TO 14 ARE THE INSTRUCTIONS TO MAKE THE DEFAULT TABLE
+*/
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+SELECT * FROM EMP;
+
+-- Question 14
+
+SELECT ENAME FROM EMP WHERE JOB <> 'Manager';
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
