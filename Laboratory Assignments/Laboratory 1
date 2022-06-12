@@ -165,3 +165,5 @@ insert into SALESMAN_MASTER values('S00001','Aman','A/14','Jadavpur','Kolkata', 
 insert into SALESMAN_MASTER values('S00002','Omkar','65','Chandni','Delhi',110006,'Delhi',3000,200,100,'Good');
 insert into SALESMAN_MASTER values('S00003','Raj','P-7','Bandra','Mumbai',400032,'Maharashtra',3000,200,100,'Good');
 insert into SALESMAN_MASTER values('S00004','Ashish','A/5','Agara','Bengaluru',560034,'Karnataka',3500,200,150,'Good');
+
+/* INSERTING THE VALUES INTO THE SALES ORDER */
