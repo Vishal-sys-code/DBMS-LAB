@@ -115,3 +115,18 @@ CREATE TABLE SALESMAN_MASTER(
     YtdSales number(6,2) NOT NULL,
     Remarks varchar2(20)
 );
+
+CREATE TABLE SALES_ORDER(
+    OrderNo varchar2(6) constraint PK_ORNO primary key check(OrderNo like 'O%'),
+    OrderDate date,
+    ClientNo varchar2(6) constraint FK_CNO references CLIENT_MASTER(ClientNo) on delete cascade,
+    DelyAddress varchar2(25),
+    SalesmanNo varchar2(6) constraint FK_SLNO references SALESMAN_MASTER(SalesmanNo) on delete cascade,
+    DelyType char(1) default 'F',
+    BilledYN char(1),
+    DelyDate date, 
+    OrderStatus varchar2(10),
+    constraint K_DelyType check(DelyType in ('P','F')),
+    constraint K_DelyDate check(DelyDate > OrderDate),
+    constraint K_OrderStatus check(OrderStatus in ('In Process', 'Fulfilled', 'Back Order', 'Cancelled'))
+);
