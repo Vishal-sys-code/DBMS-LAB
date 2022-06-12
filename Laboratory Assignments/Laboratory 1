@@ -43,3 +43,6 @@ insert into dept values(10,'Accounting','New York');
 insert into dept values(20,'Research','Dallas');
 insert into dept values(30,'Sales','Chicago');
 insert into dept values(40,'Operations','Boston');
+
+/* INSERTING INTO THE EMP TABLES */
+select * from emp;
