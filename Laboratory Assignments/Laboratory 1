@@ -130,3 +130,11 @@ CREATE TABLE SALES_ORDER(
     constraint K_DelyDate check(DelyDate > OrderDate),
     constraint K_OrderStatus check(OrderStatus in ('In Process', 'Fulfilled', 'Back Order', 'Cancelled'))
 );
+
+CREATE TABLE SALES_ORDER_DETAILS(
+    OrderNo varchar2(6) constraint FK_ONO references SALES_ORDER(OrderNo) on delete cascade,
+    ProductNo varchar2(6) constraint FK_PNO references PRODUCT_MASTER(ProductNo) on delete cascade,
+    QtyOrdered number(8),
+    QtyDisp number(8),
+    ProductRate number(10,2)    
+);
