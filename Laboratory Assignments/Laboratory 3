@@ -5,7 +5,12 @@ SELECT * FROM PRODUCT_MASTER;
 UPDATE PRODUCT_MASTER SET ReorderLvl = 80 WHERE Description = 'Shirts';
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 -- Question 2
 UPDATE PRODUCT_MASTER SET SellPrice = SellPrice + 0.1;
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+-- Question 3
+SELECT * FROM SALESMAN_MASTER; 
+UPDATE SALESMAN_MASTER SET YtdSales = 35 WHERE SalesmanNo = 'S00003';
