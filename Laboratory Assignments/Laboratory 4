@@ -57,13 +57,25 @@ SELECT TO_DATE(SYSDATE, 'DD/MM/YYYY') FROM DUAL;
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-
 /*
 Create the following table and insert 10 rows in the table
 EMP(EMPNO, ENAME, JOB, MGR, HIREDATE, SAL, COMM, DEPT_NAME)
 
-QUESTION 11 TO 14 ARE THE INSTRUCTIONS TO MAKE THE DEFAULT TABLE
+QUESTION 11 TO 13 ARE THE INSTRUCTIONS TO MAKE THE DEFAULT TABLE
+
 */
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+-- Question 14
+SELECT * FROM dept;
+SELECT * FROM emp;
+
+ALTER TABLE EMP ADD DEPT_NAME VARCHAR2(255);
+
+UPDATE EMP SET DEPT_NAME = 'Accounting' WHERE DEPTNO = 10;
+UPDATE EMP SET DEPT_NAME = 'Research' WHERE DEPTNO = 20;
+UPDATE EMP SET DEPT_NAME = 'Sales' WHERE DEPTNO = 30;
+UPDATE EMP SET DEPT_NAME = 'Operations' WHERE DEPTNO = 40;
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 SELECT * FROM EMP;
