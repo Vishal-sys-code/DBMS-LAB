@@ -90,3 +90,14 @@ CREATE TABLE CLIENT_MASTER(
     State varchar2(15),
     BalanceDue number(10,2)
 );
+
+CREATE TABLE PRODUCT_MASTER(
+    ProductNo varchar2(6) constraint PK_PNO primary key check(ProductNo like 'P%'),
+    Description varchar2(15) NOT NULL,
+    ProfitPercent number(4,2) NOT NULL,
+    UnitMeasure varchar2(10) NOT NULL,
+    QtyInHand number(8) NOT NULL,
+    ReorderLvl number(8) NOT NULL,
+    SellPrice number(8,2) NOT NULL check(SellPrice <> 0),
+    CostPrice number(8,2) NOT NULL check(CostPrice <> 0)
+);
