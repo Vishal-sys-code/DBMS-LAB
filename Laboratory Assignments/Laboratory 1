@@ -37,3 +37,9 @@ desc DEPT;
 desc EMP;
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 --Question 6
+
+/* INSERTING INTO THE DEPT TABLES */
+insert into dept values(10,'Accounting','New York');
+insert into dept values(20,'Research','Dallas');
+insert into dept values(30,'Sales','Chicago');
+insert into dept values(40,'Operations','Boston');
