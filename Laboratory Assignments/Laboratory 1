@@ -142,3 +142,9 @@ CREATE TABLE SALES_ORDER_DETAILS(
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /* INSERTING THE VALUES INTO THE CLIENT MASTER */
+insert into CLIENT_MASTER values('C00001','Ivan Baybross','Mumbai',400054,'Maharashtra',15000);
+insert into CLIENT_MASTER values('C00002','Mamta Mazumdar','Madras',780001,'Tamil Nadu',0);
+insert into CLIENT_MASTER values('C00003','Chhaya Bankar','Mumbai',400057,'Maharashtra',5000);
+insert into CLIENT_MASTER values('C00004','Ashwini Joshi','Bangalore',560001,'Karnataka',0);
+insert into CLIENT_MASTER values('C00005','Hansel Colaco','Mumbai',400060,'Maharashtra',2000);
+insert into CLIENT_MASTER values('C00006','Deepak Sharma','Mangalore',560050,'Karnataka',0);
