@@ -170,3 +170,4 @@ insert into SALESMAN_MASTER values('S00004','Ashish','A/5','Agara','Bengaluru',5
 insert into SALES_ORDER values('O19001','06/10/2002','C00001','New York','S00001','F','N','06/20/2002','In Process');
 insert into SALES_ORDER values('O19002','06/15/2002','C00002','Boston','S00002','P','N','06/27/2002','Cancelled');
 insert into SALES_ORDER values('O46865','02/11/2002','C00003','Oslo','S00003','F','Y','02/20/2002','Fulfilled');
+insert into SALES_ORDER values('O19003','03/15/2002','C00001','New Delhi','S00001','F','Y','04/07/2002','Fulfilled');
