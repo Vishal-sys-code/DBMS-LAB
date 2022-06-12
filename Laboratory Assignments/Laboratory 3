@@ -14,3 +14,8 @@ UPDATE PRODUCT_MASTER SET SellPrice = SellPrice + 0.1;
 -- Question 3
 SELECT * FROM SALESMAN_MASTER; 
 UPDATE SALESMAN_MASTER SET YtdSales = 35 WHERE SalesmanNo = 'S00003';
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+-- Question 4
+
