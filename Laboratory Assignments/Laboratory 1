@@ -138,3 +138,7 @@ CREATE TABLE SALES_ORDER_DETAILS(
     QtyDisp number(8),
     ProductRate number(10,2)    
 );
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* INSERTING THE VALUES INTO THE CLIENT MASTER */
