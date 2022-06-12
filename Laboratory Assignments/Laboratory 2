@@ -14,3 +14,6 @@ SELECT * FROM CLIENT_MASTER WHERE CITY like '_a%'; /* Name of the city whose sec
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 -- Question 3
 SELECT * FROM CLIENT_MASTER WHERE CITY = 'Mumbai' or CITY = 'Bangalore';
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+-- Question 4
+SELECT * FROM CLIENT_MASTER WHERE BALANCEDUE >= 10000;
