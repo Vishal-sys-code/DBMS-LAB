@@ -9,3 +9,8 @@ SELECT * FROM DUAL;
 -- Question 1
 SELECT SYSDATE FROM DUAL;
 SELECT to_char(SYSDATE, 'MM-DD-YYYY HH24:MI:SS') FROM DUAL;
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+-- Question 2
+SELECT 2*2 FROM DUAL;
