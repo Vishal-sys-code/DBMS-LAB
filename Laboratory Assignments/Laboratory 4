@@ -102,6 +102,10 @@ SELECT MAX(SAL) AS MAXIMUM, MIN(SAL) AS MINIMUM, SUM(SAL) AS TOTAL, AVG(SAL) AS 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 -- Question 18
+SELECT MAX(SAL) AS MAXIMUM, MIN(SAL) AS MINIMUM, SUM(SAL) AS TOTAL, AVG(SAL) AS AVERAGE FROM EMP WHERE JOB = 'Manager';
+SELECT MAX(SAL) AS MAXIMUM, MIN(SAL) AS MINIMUM, SUM(SAL) AS TOTAL, AVG(SAL) AS AVERAGE FROM EMP WHERE JOB = 'President';
+SELECT MAX(SAL) AS MAXIMUM, MIN(SAL) AS MINIMUM, SUM(SAL) AS TOTAL, AVG(SAL) AS AVERAGE FROM EMP WHERE JOB = 'Analyst';
+
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 -- Question 19
