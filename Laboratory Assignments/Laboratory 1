@@ -7,3 +7,15 @@ CREATE TABLE DEPT(
     DNAME varchar2(15),
     LOC varchar2(20)
 );
+
+/* EMPLOYEE TABLE */
+CREATE TABLE EMP(
+    EMPNO number(4) constraints PK_ENO primary key,
+    ENAME varchar2(10),
+    JOB varchar2(15),
+    MGR number(4) constraints FK_MGR references EMP(EMPNO) on delete cascade,
+    HIREDATE date,
+    SAL number(5),
+    COMM number(5),
+    DEPTNO number(2) constraints FK_DNO references DEPT(DNO) on delete cascade
+);
