@@ -61,3 +61,8 @@ insert into emp values(7521,'Ward','Salesman',7698,'02/22/1981',1250,500,30);
 insert into emp values(7654,'Martin','Salesman',7698,'09/28/1981',1250,1400,30);
 insert into emp values(7844,'Turner','Salesman',7698,'09/08/1981',1500,500,30);
 insert into emp values(7900,'James','Clerk',7698,'12/03/1981',950,NULL,30);
+
+insert into emp values(7369,'Smith','Clerk',7902,'12/17/1980',800,NULL,20);
+insert into emp values(7876,'Adams','Clerk',7788,'01/12/1983',1100,NULL,20);
+insert into emp values(7934,'Miller','Clerk',7782,'01/23/1982',1300,NULL,10);
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
