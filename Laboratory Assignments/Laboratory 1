@@ -178,3 +178,4 @@ insert into SALES_ORDER values('O19008','07/14/2002','C00005','Madrid','S00004',
 insert into SALES_ORDER_DETAILS values('O19001','P00001',4,4,525);
 insert into SALES_ORDER_DETAILS values('O19001','P07965',2,1,8400);
 insert into SALES_ORDER_DETAILS values('O19001','P07885',2,1,5250);
+insert into SALES_ORDER_DETAILS values('O19002','P00001',10,0,525);
