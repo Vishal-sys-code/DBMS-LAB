@@ -101,3 +101,17 @@ CREATE TABLE PRODUCT_MASTER(
     SellPrice number(8,2) NOT NULL check(SellPrice <> 0),
     CostPrice number(8,2) NOT NULL check(CostPrice <> 0)
 );
+
+CREATE TABLE SALESMAN_MASTER(
+    SalesmanNo varchar2(6) constraint PK_SLNO primary key check(SalesmanNo like 'S%'),
+    Name varchar2(20) NOT NULL,
+    Address1 varchar2(10) NOT NULL,
+    Address2 varchar2(10),
+    City varchar2(20),
+    Pincode number(7),
+    State varchar2(20),
+    Sal number(8,2) NOT NULL check(Sal <> 0),
+    TgtToGet number(6,2) NOT NULL check(TgtToGet <> 0),
+    YtdSales number(6,2) NOT NULL,
+    Remarks varchar2(20)
+);
