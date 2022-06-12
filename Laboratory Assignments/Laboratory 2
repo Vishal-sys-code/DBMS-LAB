@@ -11,3 +11,6 @@ SELECT * FROM CLIENT_MASTER WHERE Name like '_a%'; /* Name whose second letter s
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 -- Question 2
 SELECT * FROM CLIENT_MASTER WHERE CITY like '_a%'; /* Name of the city whose second letter is a*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+-- Question 3
+SELECT * FROM CLIENT_MASTER WHERE CITY = 'Mumbai' or CITY = 'Bangalore';
