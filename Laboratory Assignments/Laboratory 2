@@ -5,3 +5,6 @@ SELECT * FROM PRODUCT_MASTER;
 SELECT * FROM SALESMAN_MASTER;
 SELECT * FROM SALES_ORDER;
 SELECT * FROM SALES_ORDER_DETAILS;
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+-- Question 1
+SELECT * FROM CLIENT_MASTER WHERE Name like '_a%'; /* Name whose second letter starts from a */
