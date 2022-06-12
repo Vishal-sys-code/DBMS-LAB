@@ -48,3 +48,8 @@ insert into dept values(40,'Operations','Boston');
 select * from emp;
 
 insert into emp values(7839,'King','President',NULL,'11/17/1981',5000,NULL,10);
+
+insert into emp values(7566,'Jones','Manager',7839,'04/02/1981',2975,NULL,20);
+insert into emp values(7698,'Blake','Manager',7839,'05/01/1981',2850,NULL,30);
+insert into emp values(7782,'Clark','Manager',7839,'06/09/1981',2450,NULL,10);
+
