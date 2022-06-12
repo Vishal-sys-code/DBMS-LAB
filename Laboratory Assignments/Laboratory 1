@@ -19,3 +19,7 @@ CREATE TABLE EMP(
     COMM number(5),
     DEPTNO number(2) constraints FK_DNO references DEPT(DNO) on delete cascade
 );
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+-- Question 2
+ALTER TABLE EMP ADD Phone number(10);
