@@ -1,0 +1,7 @@
+-- LABORATORY 2
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+SELECT * FROM CLIENT_MASTER;
+SELECT * FROM PRODUCT_MASTER;
+SELECT * FROM SALESMAN_MASTER;
+SELECT * FROM SALES_ORDER;
+SELECT * FROM SALES_ORDER_DETAILS;
