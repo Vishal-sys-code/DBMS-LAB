@@ -173,3 +173,5 @@ insert into SALES_ORDER values('O46865','02/11/2002','C00003','Oslo','S00003','F
 insert into SALES_ORDER values('O19003','03/15/2002','C00001','New Delhi','S00001','F','Y','04/07/2002','Fulfilled');
 insert into SALES_ORDER values('O46866','05/12/2002','C00004','Qatar','S00002','P','N','05/22/2002','Cancelled');
 insert into SALES_ORDER values('O19008','07/14/2002','C00005','Madrid','S00004','F','N','07/26/2002','In Process');
+
+/* INSERTING THE VALUES INTO THE SALES ORDER DETAILS*/
