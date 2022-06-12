@@ -41,3 +41,11 @@ DELETE FROM SALES_ORDER WHERE OrderStatus = 'Cancelled';
 
 -- Question 8
 -- Delete all the records of the Salesman_Master Table and make it again 
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+-- Question 9
+SELECT * FROM PRODUCT_MASTER;
+SELECT * FROM PRODUCT_MASTER WHERE ReorderLvl > QtyInHand;
+SELECT * FROM PRODUCT_MASTER WHERE QtyInHand < ReorderLvl;
+-- Both are same
