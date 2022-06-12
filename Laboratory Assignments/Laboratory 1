@@ -160,3 +160,5 @@ insert into PRODUCT_MASTER values('P07965','Denim Shirts',4,'Piece',100,40,350,2
 insert into PRODUCT_MASTER values('P07975','Lyers Tops',5,'Piece',70,30,300,175);
 insert into PRODUCT_MASTER values('P08865','Skirts',5,'Piece',75,30,450,300);
 
+
+insert into SALESMAN_MASTER values('S00001','Aman','A/14','Jadavpur','Kolkata', 700032,'West Bengal', 3000,100,50, 'Good');
