@@ -80,3 +80,13 @@ CREATE TABLE SALESPEOPLE(
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 -- Question 9
 drop table SALESPEOPLE;
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+--Question 10
+CREATE TABLE CLIENT_MASTER(
+    ClientNo varchar2(6) constraint PK_CNO primary key check(ClientNo like 'C%'),
+    Name varchar2(20) NOT NULL,
+    City varchar2(15),
+    PinCode number(8),
+    State varchar2(15),
+    BalanceDue number(10,2)
+);
