@@ -46,3 +46,5 @@ insert into dept values(40,'Operations','Boston');
 
 /* INSERTING INTO THE EMP TABLES */
 select * from emp;
+
+insert into emp values(7839,'King','President',NULL,'11/17/1981',5000,NULL,10);
