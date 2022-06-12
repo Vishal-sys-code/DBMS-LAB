@@ -66,3 +66,6 @@ insert into emp values(7369,'Smith','Clerk',7902,'12/17/1980',800,NULL,20);
 insert into emp values(7876,'Adams','Clerk',7788,'01/12/1983',1100,NULL,20);
 insert into emp values(7934,'Miller','Clerk',7782,'01/23/1982',1300,NULL,10);
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+-- Question 7
+select * from dept;
+select * from emp;
