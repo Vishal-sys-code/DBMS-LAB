@@ -49,3 +49,8 @@ SELECT * FROM PRODUCT_MASTER;
 SELECT * FROM PRODUCT_MASTER WHERE ReorderLvl > QtyInHand;
 SELECT * FROM PRODUCT_MASTER WHERE QtyInHand < ReorderLvl;
 -- Both are same
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+-- Question 10
+SELECT * FROM EMP;
