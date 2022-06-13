@@ -44,6 +44,8 @@ SELECT DNAME FROM DEPT WHERE DNO = (SELECT DEPTNO FROM EMP WHERE ENAME LIKE 'For
 -- Question 8
 SELECT DNAME FROM DEPT WHERE DNO = (SELECT DEPTNO NO FROM EMP WHERE SAL = (SELECT MAX(SAL) FROM EMP));
 
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 -- Question 9
 SELECT LOC FROM DEPT WHERE DNO = (SELECT DEPTNO FROM EMP WHERE ENAME LIKE 'Smith%');
 SELECT LOC FROM DEPT WHERE DNO = (SELECT DEPTNO FROM EMP WHERE ENAME  = 'Smith');
