@@ -34,6 +34,7 @@ insert into sailors values(10007,'Vishal',20,21);
 insert into sailors values(10008,'Ishanvi',30,22);
 insert into sailors values(10009,'Yakshini',40,23);
 insert into sailors values(10010,'Yuvraj',50,24);
+
 /*      INSERTING THE VALUES TO BOATS     */
 insert into boats values(20006,'Pentya','Red');
 insert into boats values(20007,'William','Blue');
