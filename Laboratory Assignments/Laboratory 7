@@ -55,6 +55,8 @@ SELECT LOC FROM DEPT WHERE DNO = (SELECT DEPTNO FROM EMP WHERE ENAME  = 'Smith')
 -- Question 10
 SELECT DNAME,LOC FROM DEPT WHERE DNO IN (SELECT DEPTNO FROM EMP WHERE JOB = 'Manager');
 
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 
 -- Question 11 [Grade]
 SELECT 
