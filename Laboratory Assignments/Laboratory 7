@@ -33,6 +33,8 @@ SELECT ENAME FROM EMP WHERE SAL > (SELECT SAL FROM EMP WHERE ENAME = 'Turner');
 SELECT ENAME FROM EMP WHERE HIREDATE > (SELECT HIREDATE FROM EMP WHERE ENAME LIKE 'Allen%');
 SELECT ENAME FROM EMP WHERE HIREDATE > (SELECT HIREDATE FROM EMP WHERE ENAME = 'Allen');
 
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 -- Question 7
 SELECT DNAME FROM DEPT WHERE DNO = (SELECT DEPTNO FROM EMP WHERE ENAME = 'Ford');
 SELECT DNAME FROM DEPT WHERE DNO = (SELECT DEPTNO FROM EMP WHERE ENAME LIKE 'Ford%');
