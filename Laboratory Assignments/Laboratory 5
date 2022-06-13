@@ -27,3 +27,10 @@ CREATE TABLE RESERVES(
     DAY varchar2(15) NOT NULL,
     CONSTRAINT PK_SBID primary key(S_ID,B_ID)
 );
+
+/*      INSERTING THE VALUES TO SAILORS     */
+insert into sailors values(10006,'Tarun',10,20);
+insert into sailors values(10007,'Vishal',20,21);
+insert into sailors values(10008,'Ishanvi',30,22);
+insert into sailors values(10009,'Yakshini',40,23);
+insert into sailors values(10010,'Yuvraj',50,24);
