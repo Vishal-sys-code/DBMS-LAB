@@ -14,3 +14,8 @@ CREATE TABLE SAILORS(
     RATING number(15),
     AGE number(15)
 );
+CREATE TABLE BOATS(
+    B_ID number(10) constraint PK_BID primary key,
+    B_NAME varchar2(20) NOT NULL,
+    COLOR varchar2(15) NOT NULL
+);
