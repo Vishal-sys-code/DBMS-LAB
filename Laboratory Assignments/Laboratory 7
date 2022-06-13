@@ -61,6 +61,8 @@ SELECT DNAME,LOC FROM DEPT WHERE DNO IN (SELECT DEPTNO FROM EMP WHERE JOB = 'Man
 -- Question 11 [Grade]
 SELECT 
 
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 -- Question 12
 SELECT * FROM EMP WHERE SAL > (SELECT MAX(SAL) FROM EMP WHERE DEPTNO = (SELECT DNO FROM DEPT WHERE LOC LIKE 'Dallas%'));
 SELECT * FROM EMP WHERE SAL > (SELECT MAX(SAL) FROM EMP WHERE DEPTNO = (SELECT DNO FROM DEPT WHERE LOC = 'Dallas'));
