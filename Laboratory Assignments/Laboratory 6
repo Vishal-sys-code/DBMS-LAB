@@ -20,3 +20,7 @@ CREATE TABLE SUPPLIERS(
     POSTALCODE NUMBER(20),
     COUNTRY VARCHAR2(20)
 );
+
+INSERT INTO CUSTOMERS VALUES(1,'Alferds Futter','Maria Anders','Obere Str 57','Berlin',12209,'Germany');
+INSERT INTO CUSTOMERS VALUES(2,'Ana Helados','Ana Trujillo','Avda Construction 22','Mexico',05021,'Mexico');
+INSERT INTO CUSTOMERS VALUES(3,'Antonio Moreno','Antonio Moreno','Mataderos 2312','Mexico',05023,'Mexico');
