@@ -58,5 +58,6 @@ SELECT * FROM BOATS;
 SELECT * FROM RESERVES;
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 -- Question 1 => Finding te color of boats which is being owned by Tarun
 SELECT COLOR FROM SAILORS S, BOATS B, RESERVES R WHERE S.S_ID = R.S_ID AND B.B_ID = R.B_ID AND S.S_NAME like 'Tarun%';
