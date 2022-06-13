@@ -91,3 +91,5 @@ SELECT ENAME FROM EMP WHERE SAL IN (SELECT MIN(SAL) FROM EMP GROUP BY DEPTNO);
 
 -- Question 17
 SELECT DNAME,DNO FROM DEPT D JOIN (SELECT DEPTNO,COUNT(*) AS COUNT FROM EMP GROUP BY DEPTNO) E ON D.DNO = E.DEPTNO WHERE COUNT>1;
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
