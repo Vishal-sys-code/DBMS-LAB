@@ -7,3 +7,10 @@
  BOATS(B_ID,B_NAME,COLOR)
  RESERVES(S_ID,B_ID,DAY)
 */
+
+CREATE TABLE SAILORS(
+    S_ID number(10) constraint PK_SID primary key,
+    S_NAME varchar2(20) NOT NULL,
+    RATING number(15),
+    AGE number(15)
+);
