@@ -134,3 +134,10 @@ SELECT * FROM TAUGHTBY;
 
 -- Question 5
 SELECT T.NAME,T.DEPT FROM TEACHER T, SUBJECT S WHERE T.DEPT = 'Physics' AND S.SUBTITLE = 'Thermodynamics';
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+-- Question 6
+UPDATE SUBJECT SET SUBTITLE = 'RDBMS' WHERE SUBTITLE = 'DBMS'; /* Query of the question */
+UPDATE SUBJECT SET SUBTITLE = 'RDBMS' WHERE SUBTITLE = 'Python'; /* According to my database */
