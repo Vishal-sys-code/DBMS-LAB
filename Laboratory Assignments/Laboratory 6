@@ -1,2 +1,11 @@
 --  LABORATORY 6
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+CREATE TABLE CUSTOMERS(
+    CUSTOMERID NUMBER(2) CONSTRAINT PK_CID PRIMARY KEY,
+    CUSTOMERNAME VARCHAR2(20),
+    CONTACTNAME VARCHAR2(20),
+    ADDRESS VARCHAR2(20),
+    CITY VARCHAR2(20),
+    POSTALCODE NUMBER(20),
+    COUNTRY VARCHAR2(20)
+);
