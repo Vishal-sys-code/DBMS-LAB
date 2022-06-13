@@ -77,6 +77,8 @@ SELECT DNAME FROM DEPT WHERE DNO NOT IN (SELECT DEPTNO FROM EMP);
 -- Question 14
 SELECT ENAME FROM EMP WHERE HIREDATE = (SELECT HIREDATE FROM EMP WHERE ENAME = 'Adams');
 
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 -- Question 15
 SELECT DNAME FROM DEPT WHERE DNO IN (SELECT DEPTNO FROM EMP WHERE COMM > 0);
 
