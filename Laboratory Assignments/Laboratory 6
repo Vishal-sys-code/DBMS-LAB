@@ -38,5 +38,6 @@ SELECT * FROM SUPPLIERS;
 SELECT CITY FROM CUSTOMERS UNION SELECT CITY FROM SUPPLIERS;
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 -- Question 2
 SELECT CITY FROM CUSTOMERS UNION ALL SELECT CITY FROM SUPPLIERS;
