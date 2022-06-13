@@ -143,7 +143,6 @@ UPDATE SUBJECT SET SUBTITLE = 'RDBMS' WHERE SUBTITLE = 'DBMS'; /* Query of the q
 UPDATE SUBJECT SET SUBTITLE = 'RDBMS' WHERE SUBTITLE = 'Python'; /* According to my database */
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-
 -- Question 7
 SELECT SNAME, ROLL FROM STUDENT WHERE CITY = 'Kolkata' AND ROLL BETWEEN 40 AND 60; /* According to my database */
 SELECT SNAME, ROLL FROM STUDENT WHERE CITY = 'Kolkata' AND ROLL BETWEEN 20 AND 25;  /* Query of the question */
