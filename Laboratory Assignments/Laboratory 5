@@ -73,3 +73,7 @@ SELECT S.S_ID,S.S_NAME FROM SAILORS S , RESERVES R WHERE S.S_ID = R.S_ID AND R.D
 SELECT B.B_ID, B.B_NAME, B.COLOR FROM BOATS B WHERE COLOR IN('Red','Green');
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+-- Question 4
+DELETE FROM SAILORS S WHERE S.AGE > 60; 
+-- THERE IS NO ONE WHOSE AGE IS ABOVE 60
