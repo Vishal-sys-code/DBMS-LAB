@@ -21,6 +21,7 @@ SELECT ENAME FROM EMP WHERE SAL = (SELECT MIN(SAL) FROM EMP WHERE JOB LIKE 'Cler
 
 -- Question 4[CORELATED]
 
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 -- Question 5 [BOTH ARE SAME]
 SELECT ENAME FROM EMP WHERE SAL > (SELECT SAL FROM EMP WHERE ENAME LIKE 'Turner%');
