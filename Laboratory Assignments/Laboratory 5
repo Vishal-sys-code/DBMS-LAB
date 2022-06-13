@@ -65,3 +65,4 @@ SELECT COLOR FROM SAILORS S, BOATS B, RESERVES R WHERE S.S_ID = R.S_ID AND B.B_I
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 -- Question 2
+SELECT S.S_ID,S.S_NAME FROM SAILORS S , RESERVES R WHERE S.S_ID = R.S_ID AND R.DAY like 'Monday%';
