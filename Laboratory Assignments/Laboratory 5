@@ -41,3 +41,5 @@ insert into boats values(20007,'William','Blue');
 insert into boats values(20008,'Rohan','Green');
 insert into boats values(20009,'Mohan','Violet');
 insert into boats values(20010,'Sohan','Indigo');
+
+UPDATE BOATS SET B_NAME = 'Tarun' where B_ID = 20008;
