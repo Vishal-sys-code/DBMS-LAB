@@ -56,3 +56,5 @@ SELECT C.CUSTOMERNAME, S.SUPPLIERNAME FROM CUSTOMERS C, SUPPLIERS S WHERE C.CITY
 
 -- Question 5
 SELECT COUNTRY FROM SUPPLIERS MINUS SELECT COUNTRY FROM CUSTOMERS;
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
