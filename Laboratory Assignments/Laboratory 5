@@ -131,3 +131,6 @@ SELECT * FROM TAUGHTBY;
 
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+-- Question 5
+SELECT T.NAME,T.DEPT FROM TEACHER T, SUBJECT S WHERE T.DEPT = 'Physics' AND S.SUBTITLE = 'Thermodynamics';
