@@ -13,3 +13,6 @@ SELECT ENAME FROM EMP WHERE SAL = (SELECT MAX(SAL) FROM EMP);
 SELECT ENAME FROM EMP WHERE SAL = (SELECT MAX(SAL) FROM EMP WHERE JOB LIKE 'Salesman%');
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+-- Question 3
+SELECT ENAME FROM EMP WHERE SAL = (SELECT MIN(SAL) FROM EMP WHERE JOB LIKE 'Clerk%');
