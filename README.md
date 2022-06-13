@@ -6,4 +6,6 @@ The link of the documentation for installing the requirements:
 [Documentation](https://github.com/Vishal-sys-code/DBMS-LAB/blob/main/DAY-1/instructions.md)
 
 ## Languages Used
-Structured Query Language or SQL or sequel
+Structured Query Language or SQL or sequel || PL/SQL
+
+
