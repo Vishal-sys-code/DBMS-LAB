@@ -151,4 +151,5 @@ SELECT SNAME, ROLL FROM STUDENT WHERE CITY = 'Kolkata' AND ROLL BETWEEN 20 AND 2
 
 -- Question 8
 SELECT SNAME, ROLL FROM STUDENT WHERE CITY = 'Kolkata' order by ROLL;
+
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
