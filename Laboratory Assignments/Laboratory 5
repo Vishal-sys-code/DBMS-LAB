@@ -88,3 +88,11 @@ SUBJECT(SUBNO,SUBTITLE)
 TAUGHTBY(TID,SUBNO)
 STUDENT(ROLL, SNAME, CITY)
 */
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+CREATE TABLE STUDENT(
+    ROLL NUMBER(4) CONSTRAINT PK_RN PRIMARY KEY,
+    SNAME VARCHAR2(20) NOT NULL,
+    CITY VARCHAR2(30) NOT NULL
+);
