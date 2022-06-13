@@ -67,6 +67,8 @@ SELECT
 SELECT * FROM EMP WHERE SAL > (SELECT MAX(SAL) FROM EMP WHERE DEPTNO = (SELECT DNO FROM DEPT WHERE LOC LIKE 'Dallas%'));
 SELECT * FROM EMP WHERE SAL > (SELECT MAX(SAL) FROM EMP WHERE DEPTNO = (SELECT DNO FROM DEPT WHERE LOC = 'Dallas'));
 
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 -- Question 13
 SELECT DNAME FROM DEPT WHERE DNO NOT IN (SELECT DEPTNO FROM EMP);
 
