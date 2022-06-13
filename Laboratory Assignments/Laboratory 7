@@ -72,6 +72,8 @@ SELECT * FROM EMP WHERE SAL > (SELECT MAX(SAL) FROM EMP WHERE DEPTNO = (SELECT D
 -- Question 13
 SELECT DNAME FROM DEPT WHERE DNO NOT IN (SELECT DEPTNO FROM EMP);
 
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 -- Question 14
 SELECT ENAME FROM EMP WHERE HIREDATE = (SELECT HIREDATE FROM EMP WHERE ENAME = 'Adams');
 
