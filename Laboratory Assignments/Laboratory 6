@@ -43,3 +43,6 @@ SELECT CITY FROM CUSTOMERS UNION SELECT CITY FROM SUPPLIERS;
 SELECT CITY FROM CUSTOMERS UNION ALL SELECT CITY FROM SUPPLIERS;
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+-- Question 3
+SELECT CITY FROM CUSTOMERS WHERE COUNTRY LIKE 'Germany%' UNION SELECT CITY FROM SUPPLIERS WHERE COUNTRY LIKE 'Germany%';
