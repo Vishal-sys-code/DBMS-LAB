@@ -28,3 +28,5 @@ INSERT INTO CUSTOMERS VALUES(3,'Antonio Moreno','Antonio Moreno','Mataderos 2312
 INSERT INTO SUPPLIERS VALUES(1,'Exotic Liquid','Charlotte Cooper', '49 Gilbert St.','Berlin',12209,'Germany');
 INSERT INTO SUPPLIERS VALUES(2,'New Orleans','Shelley Burke', 'P.O Box','Mexico D.F.',05023,'Mexico');
 INSERT INTO SUPPLIERS VALUES(3,'Grandma Kelly','Regina Murphy', '707 Oxford','Ann Arbor',48104,'USA');
+SELECT * FROM CUSTOMERS;
+SELECT * FROM SUPPLIERS;
