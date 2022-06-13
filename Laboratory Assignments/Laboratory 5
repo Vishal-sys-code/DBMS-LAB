@@ -52,5 +52,6 @@ insert into reserves values(10009,20009,'Thrusday');
 insert into reserves values(10010,20010,'Friday');
 
 SELECT * FROM SAILORS;
+
 SELECT * FROM BOATS;
 SELECT * FROM RESERVES;
