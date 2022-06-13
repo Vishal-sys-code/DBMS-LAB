@@ -82,6 +82,8 @@ SELECT ENAME FROM EMP WHERE HIREDATE = (SELECT HIREDATE FROM EMP WHERE ENAME = '
 -- Question 15
 SELECT DNAME FROM DEPT WHERE DNO IN (SELECT DEPTNO FROM EMP WHERE COMM > 0);
 
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 -- Question 16
 SELECT ENAME FROM EMP WHERE SAL IN (SELECT MIN(SAL) FROM EMP GROUP BY DEPTNO);
 
