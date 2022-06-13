@@ -20,6 +20,7 @@ CREATE TABLE BOATS(
     B_NAME varchar2(20) NOT NULL,
     COLOR varchar2(15) NOT NULL
 );
+
 CREATE TABLE RESERVES(
     S_ID number(10) constraint FK_SID references SAILORS(S_ID) on delete cascade,
     B_ID number(10) constraint FK_BID references BOATS(B_ID) on delete cascade,
