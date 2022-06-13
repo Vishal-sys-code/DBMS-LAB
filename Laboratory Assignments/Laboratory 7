@@ -39,6 +39,8 @@ SELECT ENAME FROM EMP WHERE HIREDATE > (SELECT HIREDATE FROM EMP WHERE ENAME = '
 SELECT DNAME FROM DEPT WHERE DNO = (SELECT DEPTNO FROM EMP WHERE ENAME = 'Ford');
 SELECT DNAME FROM DEPT WHERE DNO = (SELECT DEPTNO FROM EMP WHERE ENAME LIKE 'Ford%');
 
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 -- Question 8
 SELECT DNAME FROM DEPT WHERE DNO = (SELECT DEPTNO NO FROM EMP WHERE SAL = (SELECT MAX(SAL) FROM EMP));
 
