@@ -48,3 +48,8 @@ SELECT CITY FROM CUSTOMERS UNION ALL SELECT CITY FROM SUPPLIERS;
 SELECT CITY FROM CUSTOMERS WHERE COUNTRY LIKE 'Germany%' UNION SELECT CITY FROM SUPPLIERS WHERE COUNTRY LIKE 'Germany%';
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+-- Question 4
+SELECT C.CUSTOMERNAME, S.SUPPLIERNAME FROM CUSTOMERS C, SUPPLIERS S WHERE C.CITY IN (SELECT CITY FROM CUSTOMERS INTERSECT SELECT CITY FROM SUPPLIERS) AND S.CITY IN (SELECT CITY FROM CUSTOMERS INTERSECT SELECT CITY FROM SUPPLIERS);
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
