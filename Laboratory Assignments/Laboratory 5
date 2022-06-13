@@ -43,3 +43,9 @@ insert into boats values(20009,'Mohan','Violet');
 insert into boats values(20010,'Sohan','Indigo');
 
 UPDATE BOATS SET B_NAME = 'Tarun' where B_ID = 20008;
+/*      INSERTING THE VALUES TO RESERVES     */
+insert into reserves values(10006,20006,'Monday');
+insert into reserves values(10007,20007,'Tuesday');
+insert into reserves values(10008,20008,'Wednesday');
+insert into reserves values(10009,20009,'Thrusday');
+insert into reserves values(10010,20010,'Friday');
