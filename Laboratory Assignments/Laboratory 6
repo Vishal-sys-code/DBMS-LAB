@@ -24,6 +24,7 @@ CREATE TABLE SUPPLIERS(
 INSERT INTO CUSTOMERS VALUES(1,'Alferds Futter','Maria Anders','Obere Str 57','Berlin',12209,'Germany');
 INSERT INTO CUSTOMERS VALUES(2,'Ana Helados','Ana Trujillo','Avda Construction 22','Mexico',05021,'Mexico');
 INSERT INTO CUSTOMERS VALUES(3,'Antonio Moreno','Antonio Moreno','Mataderos 2312','Mexico',05023,'Mexico');
+
 INSERT INTO SUPPLIERS VALUES(1,'Exotic Liquid','Charlotte Cooper', '49 Gilbert St.','Berlin',12209,'Germany');
 INSERT INTO SUPPLIERS VALUES(2,'New Orleans','Shelley Burke', 'P.O Box','Mexico D.F.',05023,'Mexico');
 INSERT INTO SUPPLIERS VALUES(3,'Grandma Kelly','Regina Murphy', '707 Oxford','Ann Arbor',48104,'USA');
