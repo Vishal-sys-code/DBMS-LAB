@@ -71,3 +71,5 @@ SELECT S.S_ID,S.S_NAME FROM SAILORS S , RESERVES R WHERE S.S_ID = R.S_ID AND R.D
 
 -- Question 3
 SELECT B.B_ID, B.B_NAME, B.COLOR FROM BOATS B WHERE COLOR IN('Red','Green');
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------*/
