@@ -20,6 +20,7 @@ SELECT ENAME FROM EMP WHERE SAL = (SELECT MIN(SAL) FROM EMP WHERE JOB LIKE 'Cler
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 -- Question 4[CORELATED]
+SELECT * FROM DEPT WHERE DEPTNO IN (SELECT DEPTNO FROM EMP GROUP BY DEPTNO WHERE AVG(SAL) = (SELECT MAX(AVG(SAL)) FROM EMP GROUP BY DEPT NO));
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
