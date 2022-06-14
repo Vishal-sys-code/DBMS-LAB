@@ -98,6 +98,10 @@ SELECT * FROM V4;
 
 -- Question 5
 
+CREATE VIEW Salespeople_Customer_Orders AS
+SELECT X.SNUM, Y.CNUM, Z.ONUM FROM SALESPEOPLE X, CUSTOMER Y, ORDERS Z;
+
+SELECT * FROM Salespeople_Customer_Orders;
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
