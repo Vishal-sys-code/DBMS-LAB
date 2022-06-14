@@ -107,4 +107,10 @@ SELECT * FROM Salespeople_Customer_Orders;
 
 -- Question 6
 
+CREATE VIEW V6 AS
+SELECT SNUM,COMM FROM SALESPEOPLE
+WHERE COMM IS BETWENN 1000 AND 2000 WITH CHECK OPTION;
+
+SELECT * FROM V6;
+
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
