@@ -88,9 +88,16 @@ FROM (SELECT AVG(COUNT(*)) AS AVGE FROM ORDERS GROUP BY SNUM) X, (SELECT TOT, SN
 
 -- Question 4
 
+CREATE VIEW V4 AS
+SELECT * FROM SALESPEOPLE
+WHERE SNUM IN (SELECT SNUM FROM CUSTOMER GROUP BY SNUM HAVING COUNT(SNUM)>1);
+
+SELECT * FROM V4;
+
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 -- Question 5
+
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
