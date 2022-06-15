@@ -50,6 +50,7 @@ SELECT CITY FROM CUSTOMERS WHERE COUNTRY LIKE 'Germany%' UNION SELECT CITY FROM 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 -- Question 4
+-- SELECT ALL THE CUSTOMER NAME AND THE SUPPLIER NAME FROM CUSTOMERS TABLES WHERE CITY NAME IS COOMON IN BOTH
 SELECT C.CUSTOMERNAME, S.SUPPLIERNAME FROM CUSTOMERS C, SUPPLIERS S WHERE C.CITY IN (SELECT CITY FROM CUSTOMERS INTERSECT SELECT CITY FROM SUPPLIERS) AND S.CITY IN (SELECT CITY FROM CUSTOMERS INTERSECT SELECT CITY FROM SUPPLIERS);
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
