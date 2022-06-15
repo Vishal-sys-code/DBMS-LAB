@@ -54,5 +54,5 @@ SELECT * FROM PRODUCT_MASTER WHERE QtyInHand < ReorderLvl;
 
 -- Question 10
 SELECT * FROM EMP;
--- Made up of Subqueries
+update emp set mgr = (select empno from emp where ename = 'Blake') where ename in ('Smith','Adams');
 /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
